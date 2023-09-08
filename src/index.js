@@ -14,7 +14,7 @@ const rootElement = document.getElementById('root');
 render(
   <React.StrictMode>
     <Provider store={store}>
-      {/* <PersistGate loading={null} persistor={persistor}> */}
+      {/* <PersistGate  persistor={persistor}> */}
         <BrowserRouter>
           <App />
         </BrowserRouter>
